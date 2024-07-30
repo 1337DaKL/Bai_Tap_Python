@@ -1,0 +1,1 @@
+{"name":"Local: tongchan","url":"c:\\Users\\luong\\OneDrive\\Documents\\baitappython\\28tech\\vonglap\\tongchan.py","tests":[{"id":1711677911410,"input":"8\n8 9 4 1 5 1 6 6","output":"24"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\luong\\OneDrive\\Documents\\baitappython\\28tech\\vonglap\\tongchan.py","group":"local","local":true}
