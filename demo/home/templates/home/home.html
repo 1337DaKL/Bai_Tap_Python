@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        {% load static %}
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Website of 1337DAKL</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'home/stype.css' %}">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <table border = "1" , cellspacing = "0" , cellpadding = "0" , aling = "center" , width = "1500" , height = "50">
+            <tr>
+                <td>
+                    <a href = "{% url 'home:home' %}" title = "Trang chu">Home</a>
+                </td>
+                <td>
+                    <a href = "{% url 'blog:blog' %}" title = "Blog ca nhan">Blog</a>
+                </td>
+                <td>    
+                    <a href = "https://www.facebook.com/11u0n2gh3ck" target = "black" title = "Trang facebook">Infor</a>
+                </td>
+                <td>    
+                    <a href = "{% url 'contact:contact' %}" title = "dang ki tai khoan cua ban">Contact</a>
+                </td>
+            </tr>
+        </table>
+        <div class = "content">
+            {% block content %}
+
+            {% endblock  %}
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
